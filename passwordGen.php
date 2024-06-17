@@ -16,7 +16,11 @@ $numeroCaratteri = $_GET["lunghezzaPassword"] ?? "0";
 <body>
     <div>
         <p id="titolo">La password generata (lunga <?=$numeroCaratteri?> caratteri) è:</p>
-        <p id="password"><?=$numeroCaratteri?></p>
+        <p id="password"><?php
+        for ($i=0; $i < $numeroCaratteri; $i++) { 
+            echo "X";
+        } 
+        ?></p>
 
     </div>    
 </body>
