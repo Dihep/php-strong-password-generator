@@ -1,6 +1,7 @@
 <?php
 
 $numeroCaratteri = $_GET["lunghezzaPassword"] ?? "0";
+$sceltaCaratteri = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
 ?>
 
